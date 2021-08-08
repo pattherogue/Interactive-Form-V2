@@ -40,25 +40,13 @@ shirtDesign.addEventListener('change', (e) => {
         /* assign color options for Theme - "JS Puns" */
         /* assign color options forTheme - "I <3 JS" */
         if (themeOfChoice === dataTheme) {
-            /* colorOptions[i].hidden = false;
-            colorOptions[i].setAttribute('selected', false); */
-           
             colorOptions[i].hidden = false;
             colorOptions[i].setAttribute(`selected`, ``);
         } else {
-            /* colorOptions[i].hidden = true;
-            colorOptions[i].removeAttribute = ('selected', false); */
-      
             colorOptions[i].hidden = true;
             colorOptions[i].removeAttribute(`selected`);
         }
     }
-    /* disply proper color options of selected design */
-   /* if (shirtDesign.value == 'js puns') {
-        colorOption[1].selected = true;
-    } else if (shirtDesign.value == 'heart js') {
-        colorOption[4].selected = true;
-    } */
 });
 
 /* ***"Register for Activities" Section*** */
